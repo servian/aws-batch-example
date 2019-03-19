@@ -2,10 +2,11 @@
 
 
 ## Prerequisites:
-	AWS CLI  Please follow instructions in this link: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
-	Docker  Please follow instructions in this link: https://docs.docker.com/install/
-	maven  Please follow instructions in this link: https://maven.apache.org/download.cgi
-	Either Docker hub /AWS ECR : https://docs.aws.amazon.com/AmazonECR/latest/userguide/get-set-up-for-amazon-ecr.html
+
+	Install [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
+	Install [Docker](https://docs.docker.com/install/)
+	Install [maven](Please follow instructions in this link: https://maven.apache.org/download.cgi)
+	Setup either [Docker hub](https://hub.docker.com/signup)/[AWS ECR](https://docs.aws.amazon.com/AmazonECR/latest/userguide/get-set-up-for-amazon-ecr.html)
 ## Run the code
 
 ### Step 1: 
@@ -20,7 +21,7 @@ Run command
  ```
 
 ### Step 2:
- 1. Login yo your docker hub or aws ecr repo.(https://docs.aws.amazon.com/AmazonECR/latest/userguide/ECR_AWSCLI.html)
+ 1. Login yo your docker hub or [AWS ECR](https://docs.aws.amazon.com/AmazonECR/latest/userguide/ECR_AWSCLI.html)
 
 docker build -t sentiment .
 docker tag sentiment:latest your-ecr-repository
