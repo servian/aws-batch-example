@@ -1,12 +1,10 @@
 # AWS BATCH  EXAMPLE
-
-
+Sample code to get started with AWS Batch.
 ## Prerequisites:
-
-	Install [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
-	Install [Docker](https://docs.docker.com/install/)
-	Install [maven](Please follow instructions in this link: https://maven.apache.org/download.cgi)
-	Setup either [Docker hub](https://hub.docker.com/signup)/[AWS ECR](https://docs.aws.amazon.com/AmazonECR/latest/userguide/get-set-up-for-amazon-ecr.html)
+Install [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
+Install [Docker](https://docs.docker.com/install/)
+Install [maven](Please follow instructions in this link: https://maven.apache.org/download.cgi)
+Setup either [Docker hub](https://hub.docker.com/signup)/[AWS ECR](https://docs.aws.amazon.com/AmazonECR/latest/userguide/get-set-up-for-amazon-ecr.html)
 ## Run the code
 
 ### Step 1: 
